@@ -10,3 +10,7 @@ mat-expansion-panel{
 mat-expansion-panel p{
     font-weight: 800;
 }
+
+p{
+    font-size: medium;
+}
