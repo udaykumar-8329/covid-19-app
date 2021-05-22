@@ -30,13 +30,16 @@ import { MatTooltipModule} from '@angular/material/tooltip'
 import { MatMenuModule } from '@angular/material/menu'
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
+import { NgHttpLoaderModule } from 'ng-http-loader';
+import { CustomLoaderComponent } from './custom-loader/custom-loader.component';
 @NgModule({
   declarations: [
     AppComponent,
     DataComponent,
     DataCardComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CustomLoaderComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { FooterComponent } from './footer/footer.component';
     MatMenuModule,
     MatSidenavModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    NgHttpLoaderModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
