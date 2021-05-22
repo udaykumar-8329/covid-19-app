@@ -13,7 +13,7 @@ export class DataComponent implements OnInit {
   data:any;
   constructor(private _dataService:DataService) {
     this._dataService.getAllData().subscribe((res:any)=>{
-      this.data = res["statewise"];
+      this.data = res;
       console.log(this.data);
     })
    }

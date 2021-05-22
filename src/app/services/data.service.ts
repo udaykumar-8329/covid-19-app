@@ -16,7 +16,7 @@ export class DataService {
   constructor(private _httpClient:HttpClient) { }
 
   getAllData()  {
-    return this._httpClient.get(environment.apiBaseUrl+'/data.json',this.httpHeader);
+    return this._httpClient.get(environment.apiBaseUrl+'data/statewise',this.httpHeader);
   }
 
 }

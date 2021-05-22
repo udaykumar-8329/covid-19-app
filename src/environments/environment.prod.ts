@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBaseUrl:'https://api.covid19india.org/'
+  apiBaseUrl:'https://glacial-shelf-90659.herokuapp.com/'
 };
