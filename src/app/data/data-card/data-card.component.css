@@ -1,0 +1,12 @@
+mat-panel-title{
+    color: blue;
+}
+
+mat-expansion-panel{
+    border: 2px solid gray;
+    margin: 1%;
+}
+
+mat-expansion-panel p{
+    font-weight: 800;
+}

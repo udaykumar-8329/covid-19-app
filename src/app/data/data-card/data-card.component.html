@@ -1,0 +1,19 @@
+<div>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+           <mat-panel-title>
+            <h2>{{data.state}}</h2>
+           </mat-panel-title>
+        </mat-expansion-panel-header>
+        
+        <p>Confirmed: {{data.confirmed}}</p>
+        <p style="color: red;">Active: {{data.active}}</p>
+        <p style="color: red;">Deaths: {{data.deaths}}</p>
+        <p>Delta Confirmed: {{data.deltaconfirmed}}</p>
+        <p>Delta Deaths: {{data.deltadeaths}}</p>
+        <p style="color: green;">Delta Recovered: {{data.deltarecovered}}</p>
+        <p>last Updated: {{data.lastupdatedtime}}</p>
+        <p>Migrated Other: {{data.migratedother}}</p>
+        <p>Recovered: {{data.recovered}}</p>
+    </mat-expansion-panel>
+</div>
